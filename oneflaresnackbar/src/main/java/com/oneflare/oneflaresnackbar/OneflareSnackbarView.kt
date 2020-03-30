@@ -1,4 +1,4 @@
-package au.com.oneflare.businessapp.ui.views.snackbar.servicearea
+package com.oneflare.oneflaresnackbar
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -10,7 +10,6 @@ import android.util.Log
 import android.view.View
 import android.view.animation.OvershootInterpolator
 import android.widget.ImageView
-import com.oneflare.oneflaresnackbar.R
 
 class OneflareSnackbarView @JvmOverloads constructor(
         context: Context,

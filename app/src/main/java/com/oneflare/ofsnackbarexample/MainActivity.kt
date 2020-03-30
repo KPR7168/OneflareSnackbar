@@ -2,7 +2,7 @@ package com.oneflare.ofsnackbarexample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import au.com.oneflare.businessapp.ui.views.snackbar.servicearea.OneflareSnackbar
+import com.oneflare.oneflaresnackbar.OneflareSnackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,12 +1,11 @@
-package au.com.oneflare.businessapp.ui.views.snackbar.servicearea
+package com.oneflare.oneflaresnackbar
 
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import androidx.core.content.ContextCompat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import au.com.oneflare.businessapp.ui.views.snackbar.extension.findSuitableParent
-import com.oneflare.oneflaresnackbar.R
+import com.oneflare.oneflaresnackbar.extension.findSuitableParent
 import kotlinx.android.synthetic.main.layout_oneflare_snackbar_view.view.*
 
 public class OneflareSnackbar(

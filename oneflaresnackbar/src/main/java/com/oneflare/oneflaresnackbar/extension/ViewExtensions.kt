@@ -1,6 +1,5 @@
-package au.com.oneflare.businessapp.ui.views.snackbar.extension
+package com.oneflare.oneflaresnackbar.extension
 
-import androidx.coordinatorlayout.widget.CoordinatorLayout
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
