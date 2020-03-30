@@ -11,7 +11,7 @@ import android.view.View
 import android.view.animation.OvershootInterpolator
 import android.widget.ImageView
 
-class OneflareSnackbarView @JvmOverloads constructor(
+internal class OneflareSnackbarView @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,
         defStyleAttr: Int = 0

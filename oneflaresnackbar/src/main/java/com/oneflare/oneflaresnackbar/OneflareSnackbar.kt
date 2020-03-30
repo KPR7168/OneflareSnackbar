@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.oneflare.oneflaresnackbar.extension.findSuitableParent
 import kotlinx.android.synthetic.main.layout_oneflare_snackbar_view.view.*
 
-public class OneflareSnackbar(
+class OneflareSnackbar private constructor(
         parent: ViewGroup,
         content: OneflareSnackbarView
 ) : BaseTransientBottomBar<OneflareSnackbar>(parent, content, content) {
