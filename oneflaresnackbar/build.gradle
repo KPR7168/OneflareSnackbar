@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'maven'
+
+group = 'com.github.KPR7168'
 
 android {
     compileSdkVersion 29
@@ -23,6 +26,21 @@ android {
         }
     }
 
+}
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+//task javadocJar(type: Jar) {
+//    classifier = 'javadoc'
+//    from javadoc.destinationDir
+//}
+
+artifacts {
+    archives sourcesJar
+//    archives javadocJar
 }
 
 dependencies {
