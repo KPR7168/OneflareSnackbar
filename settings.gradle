@@ -1,0 +1,3 @@
+rootProject.name='OFSnackBarExample'
+include ':app'
+include ':oneflaresnackbar'
